@@ -1,6 +1,6 @@
 # 9.4 可观测性标准演进
 
-收 Dapper 论文发布的影响，市场出现了大量的追踪系统，如 Jaeger、Pinpoint、Zipkin 等。这些系统都以 Dapper 论文为原型实现，各个系统功能并没有本质差别，但又受限于实现细节，彼此之间很难搭配工作。
+受 Dapper 论文发布的影响，市场出现了大量的追踪系统，如 Jaeger、Pinpoint、Zipkin 等。这些系统都以 Dapper 论文为原型实现，各个系统功能并没有本质差别，但又受限于实现细节，彼此之间很难搭配工作。
 
 
 为了解决追踪系统各自为政的乱象，一些老牌 APM（Application Performance Monitoring，应用程序性能监控）系统代表的厂商（如 Uber、LightStep、Redhat）定义了一套厂商无关、语言无关的分布式追踪的标准协议 —— OpenTracing。
